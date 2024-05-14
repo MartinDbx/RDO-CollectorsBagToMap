@@ -8,11 +8,12 @@ sys.path.append("Utilities")
 import scraper, lister
 
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
 
     SHOPCART = scraper.readShoppingCart()
     UNCOLLITEMS = scraper.scrapShoppingCart(SHOPCART)
 
     lister.makeFileJR(SHOPCART, UNCOLLITEMS)
 
-    # scraper.resetShoppingCart()
+    if len(sys.argv) == 2 and sys.argv[1] in ["-r", "-reset"]:
+        scraper.resetShoppingCart()

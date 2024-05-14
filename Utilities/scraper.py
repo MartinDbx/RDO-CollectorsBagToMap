@@ -22,6 +22,7 @@ def readShoppingCart() -> list:
 
     return cart
 
+
 def resetShoppingCart():
     """Reset shopping-cart.txt file."""
 
@@ -42,6 +43,7 @@ def __scraper(collection: list) -> list:
                 uncollectedItems.append(item)
 
     return uncollectedItems
+
 
 def scrapShoppingCart(cart: list) -> list:
     """Given a list of collections (cart), returns the uncollected items of

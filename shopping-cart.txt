@@ -1,6 +1,6 @@
-Antique Alcohol Bottles: 1
+Antique Alcohol Bottles: 0
 Family Heirlooms: 0
 Suits of Cups Tarot Cards: 0
 Suits of Pentacles Tarot Cards: 0
-Suits of Swords Tarot Cards: 1
-Suits of Wands Tarot Cards: 1
+Suits of Swords Tarot Cards: 0
+Suits of Wands Tarot Cards: 0

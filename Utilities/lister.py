@@ -3,8 +3,17 @@
 #   Author: Martin Debaisieux
 #   Date: 13 May 2024
 
-import sys, shutil, items
+import sys, shutil, items, datetime
 sys.path.append("..")
+
+
+def __dateOfToday():
+    """Creates the .json line for the date of today."""
+
+    today = datetime.date.today()
+    formattedDate = today.strftime("%Y-%m-%d")
+
+    return "    \"rdr2collector.date\": \"" + formattedDate + "\",\n"
 
 
 def __collectionsToShow(cart: list):
@@ -29,11 +38,14 @@ def makeFileJR(collectionsToShow: list, uncollectedItems: list):
     idx = 0
 
     for item in uncollectedItems:
+
         with open("collector-list.json", "r") as file:
             lines = file.readlines()
+
         with open("collector-list.json", "w") as file:
             for line in lines:
                 if idx == 0 and len(line) == 1:
+                    file.write(__dateOfToday())
                     file.write(__collectionsToShow(collectionsToShow))
                     idx = 1
                 if "collected" not in line or  items.itemsJR[item] not in line:
