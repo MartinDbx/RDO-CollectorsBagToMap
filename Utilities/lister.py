@@ -30,7 +30,7 @@ def __collectionsToShow(cart: list):
 
 
 def makeFileJR(collectionsToShow: list, uncollectedItems: list):
-    """"Generate 'collector-list.json' where only uncollectedItems of
+    """Generate 'collector-list.json' where only uncollectedItems of
     collectionsToShow are visible. This file can be uploaded into
     https://jeanropke.github.io/RDR2CollectorsMap/."""
 
