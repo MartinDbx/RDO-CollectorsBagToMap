@@ -16,7 +16,7 @@ For some collections, it is not possible to determine the location of a given it
 - [x] Suit of Wands Tarot Cards
 
 
-## How to run 
+## Usage
 
 1. Sign in to Social Club (in English) and go to your [collector's bag](https://socialclub.rockstargames.com/games/rdo/roles/collector/bag). For each collection you want, copy the HTML code (inspect the page) and paste it into the appropriate file of `Collections/`. See an [example](Utilities/template-collection.txt) of what this looks like. 
 2. For each collection you want to appear in the list, set the corresponding bit to 1 in `shopping-cart.txt`.
