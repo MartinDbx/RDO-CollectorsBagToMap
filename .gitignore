@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 .DS_Store
-collector-list.json
+rdo-collector-map-list*.json

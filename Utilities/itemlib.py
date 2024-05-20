@@ -1,5 +1,5 @@
-#   From: https://github.com/MartinDbx/RDO-CollectorBagToMap
-#   File: Utilities/items.py
+#   From: https://github.com/MartinDbx/RDO-CollectorsBagToMap
+#   File: Utilities/itemlib.py
 #   Author: Martin Debaisieux
 #   Date: 13 May 2024
 
@@ -9,8 +9,8 @@ AntiqueAlcoholBottles = [
     "Old Tom Gin", "Absinthe", "Gran Corazon Madeira"
 ]
 
-FamilyHeirlooms = ["FamilyHeirlooms",
-    "Ebony Hairbrush", "New Guinea Rosewood Hairbrush",
+FamilyHeirlooms = [
+    "FamilyHeirlooms", "Ebony Hairbrush", "New Guinea Rosewood Hairbrush",
     "Jade Hairpin", "Ivory Hairpin", "Carved Wooden Hairpin",
     "Horse Hair Brush", "Goat Hair Brush", "Cherrywood Comb", "Ebony Hairpin",
     "Boar Bristle Brush", "Boxwood Comb", "Tortoiseshell Comb",
@@ -71,8 +71,7 @@ COLLECTIONS = [
 ]
 
 
-# jeanropke translation
-
+# Translation according to jeanropke's naming convention.
 collectionsJR = {
     "Antique Alcohol Bottles" : "bottle\\",
     "FamilyHeirlooms" : "heirlooms\\",
