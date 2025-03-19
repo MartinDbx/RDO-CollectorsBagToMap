@@ -9,6 +9,11 @@ AntiqueAlcoholBottles = [
     "Old Tom Gin", "Absinthe", "Gran Corazon Madeira"
 ]
 
+BirdEggs = [
+    "Bird Eggs", "Vulture Egg", "Heron Egg", "Hawk Egg", "Eagle Egg",
+    "Duck Egg", "Spoonbill Egg", "Goose Egg", "Loon Egg", "Egret Egg"
+]
+
 FamilyHeirlooms = [
     "FamilyHeirlooms", "Ebony Hairbrush", "New Guinea Rosewood Hairbrush",
     "Jade Hairpin", "Ivory Hairpin", "Carved Wooden Hairpin",
@@ -63,6 +68,7 @@ SuitOfWandsTarotCards = [
 
 COLLECTIONS = [
     AntiqueAlcoholBottles,
+    BirdEggs,
     FamilyHeirlooms,
     SuitOfCupsTarotCards,
     SuitOfPentaclesTarotCards,
@@ -74,6 +80,7 @@ COLLECTIONS = [
 # Translation according to jeanropke's naming convention.
 collectionsJR = {
     "Antique Alcohol Bottles" : "bottle\\",
+    "Bird Eggs" : "egg\\",
     "FamilyHeirlooms" : "heirlooms\\",
     "Suit of Cups Tarot Cards" : "cups\\",
     "Suit of Pentacles Tarot Cards" : "pentacles\\",
@@ -91,6 +98,16 @@ itemsJR = {
     "Old Tom Gin" : "oldtom_gin",
     "Absinthe" : "cyprus_brandy",
     "Gran Corazon Madeira" : "plymouth_gin",
+
+    "Vulture Egg" : "vulture_egg",
+    "Heron Egg" : "heron_egg",
+    "Hawk Egg" : "hawk_egg",
+    "Eagle Egg" : "eagle_egg",
+    "Duck Egg" : "duck_egg",
+    "Spoonbill Egg" : "spoonbill_egg",
+    "Goose Egg" : "goose_egg",
+    "Loon Egg" : "loon_egg",
+    "Egret Egg" : "egret_egg",
 
     "Ebony Hairbrush" : "brush_ebony",
     "New Guinea Rosewood Hairbrush" : "brush_rosewood_ng",
